@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Rober\College\4thYrSem1\CG\Labs\Lab_1\Lab_1\main.cpp(460,12): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Rober\College\4thYrSem1\CG\Labs\Lab_1\Lab_1\main.cpp(461,12): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  Lab_1.vcxproj -> C:\Users\Rober\College\4thYrSem1\CG\Labs\Lab_1\Debug\Lab_1.exe

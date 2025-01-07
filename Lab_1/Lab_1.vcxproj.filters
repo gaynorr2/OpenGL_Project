@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Textures">
+      <UniqueIdentifier>{65c58b28-609d-43ea-9af4-5d7e27057187}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="maths_funcs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader_header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="maths_funcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fragment.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="vertex.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="skybox_fragment.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="skybox_vertex.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="lightsource_fragment.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="lightsource_vertex.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="solidcolor_vertex.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="solidcolor_fragment.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="textured_vertex.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="textured_fragment.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="container2.png">
+      <Filter>Source Files\Textures</Filter>
+    </Image>
+    <Image Include="container2_specular.png">
+      <Filter>Source Files\Textures</Filter>
+    </Image>
+    <Image Include="stoneFloor.jpg">
+      <Filter>Source Files\Textures</Filter>
+    </Image>
+    <Image Include="stoneFloorSpecular.png">
+      <Filter>Source Files\Textures</Filter>
+    </Image>
+    <Image Include="Stylized_Stone_Floor_003_normal.jpg">
+      <Filter>Source Files\Textures</Filter>
+    </Image>
+    <Image Include="Tex_Deer.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="others_0001_ao_1k.jpg">
+      <Filter>Source Files\Textures</Filter>
+    </Image>
+    <Image Include="others_0001_color_1k.jpg">
+      <Filter>Source Files\Textures</Filter>
+    </Image>
+    <Image Include="others_0001_roughness_1k.jpg">
+      <Filter>Source Files\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

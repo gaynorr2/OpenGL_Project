@@ -1,0 +1,12 @@
+#version 330 core
+out vec4 FragColor;
+  
+in vec2 TexCoord;
+
+uniform sampler2D woodboxTexture;
+uniform sampler2D smileyTexture;
+
+void main()
+{
+    FragColor = mix(texture(woodboxTexture, TexCoord), texture(smileyTexture, TexCoord), 0.5);
+}
